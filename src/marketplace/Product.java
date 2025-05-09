@@ -43,6 +43,6 @@ public int compareTo(Product<T> other) {
 // method toString untuk menampilkan informasi produk secara ringkas
 @Override
 public String toString() {
-    return "ID: " + id + " | Name: " + name + " | Category: " + category + " | Price: Rp" + price;
+    return "ID: " + id + " | Name: " + name + " | Category: " + category + " | Price: Rp " + price;
 }
 }
